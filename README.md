@@ -1,2 +1,1 @@
-"# front-end-javascript-development" 
-"# front-end-javascript-development" 
+Some of the main tasks, that i made during being on courses.
