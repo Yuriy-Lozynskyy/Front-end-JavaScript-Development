@@ -1,0 +1,116 @@
+* {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p {
+	margin: 12px;
+}
+
+.mars {
+	width: 500px;
+	height: 100%;
+	background-image: url("http://www.popsci.com/sites/popsci.com/files/styles/large_1x_/public/rtx1b5ct.jpg?itok=_8RXaNW1");
+}
+
+.mars h1 {
+	padding-top: 20px;
+}
+
+#tempreture {
+	font-size: 100px;
+	margin: 0;
+}
+
+p:nth-child(2) span {
+	font-size: 90px;
+}
+
+.mars h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+p:nth-child(3),#update {
+	font-size: 20px;
+}
+
+.navigation span {
+	text-transform: lowercase;
+	cursor: pointer;
+}
+
+p.loadmore span {
+	margin: 0px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+#loader {
+	position: relative;
+	left: 295px;
+	top: -165px;
+	z-index: 1;
+	margin: -75px 0 0 -75px;
+	border: 6px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 6px solid #32150f;
+	width: 60px;
+	height: 60px;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+	position: relative;
+	-webkit-animation-name: animatebottom;
+	-webkit-animation-duration: 1s;
+	animation-name: animatebottom;
+	animation-duration: 1s
+}
+
+@keyframes animatebottom {
+	from {
+		bottom: -100px;
+		opacity: 0
+	}
+
+	to {
+		bottom: 0px;
+		opacity: 1
+	}
+}
+
+@keyframes animatebottom {
+	from {
+		bottom: -100px;
+		opacity: 0
+	}
+	to {
+		bottom: 0;
+		opacity: 1
+	}
+}

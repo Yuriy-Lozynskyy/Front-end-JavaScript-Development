@@ -1,0 +1,111 @@
+* {
+  margin: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.container-fluid {
+  margin-top: 0;
+  padding-right: 0;
+  padding-left: 0; }
+
+.navbar {
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid #e7e7e7; }
+
+.navbar-default .navbar-nav li a:hover {
+  color: white; }
+.navbar-default .navbar-nav li:hover {
+  background-color: #2A74BF;
+  transition: 0.3s; }
+.navbar-default .navbar-nav li.active {
+  background-color: #2A74BF; }
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav .active a:hover {
+  background-color: #2A74BF;
+  color: white; }
+
+.row.banner {
+  margin-top: 20px; }
+
+.content {
+  font-size: 16px; }
+.content h1,
+.content h2 {
+  color: #2A74BF;
+  font-weight: bold; }
+.content hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #2A74BF;
+  padding: 0;
+  margin: 0; }
+.content p.description {
+  padding-right: 26px; }
+
+.news {
+  cursor: pointer; }
+.news a {
+  text-decoration: none; }
+
+.news-1 {
+  background: #D7514C;
+  text-align: center;
+  border: 1px solid #D7514C;
+  margin-top: 20px; }
+.news-1:hover {
+  background: #c4312c;
+  transition: 0.3s; }
+.news-1 p {
+  padding: 10px 0px 0px;
+  color: white;
+  font-weight: 600; }
+
+.news-2 {
+  background: #2A74BF;
+  text-align: center;
+  border: 1px solid #2A74BF;
+  margin-top: 20px; }
+.news-2:hover {
+  background: #215b95;
+  transition: 0.3s; }
+.news-2 p {
+  padding: 10px 0px 0px;
+  color: white;
+  font-weight: 600; }
+
+.news-3 {
+  background: #D8C11D;
+  text-align: center;
+  border: 1px solid #D8C11D;
+  margin-top: 20px; }
+.news-3:hover {
+  background: #ab9917;
+  transition: 0.3s; }
+.news-3 p {
+  padding: 10px 0px 0px;
+  color: white;
+  font-weight: 600; }
+
+.news-4 {
+  background: #4D944B;
+  text-align: center;
+  border: 1px solid #4D944B;
+  margin-top: 20px; }
+.news-4:hover {
+  background: #3b723a;
+  transition: 0.3s; }
+.news-4 p {
+  padding: 10px 0px 0px;
+  color: white;
+  font-weight: 600; }
+
+footer {
+  background: #666;
+  color: white; }
+footer p {
+  padding: 10px 10px 0px 10px;
+  font-weight: bold; }

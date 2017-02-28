@@ -1,0 +1,202 @@
+$blue: #2A74BF;
+$red: #D7514C;
+$green: #4D944B;
+$orange: #D8C11D;
+$grey: #666;
+$navBorderColor: #e7e7e7;
+$transition: 0.3s;
+$textSize: 16px;
+$descriptionPadding: 26px;
+$newsBlockHeight: 195px;
+$newsFontWeight: 600;
+$newsTextAlight: center;
+$newsTextPadding: 10px 0px 0px;
+$newsCursor: pointer;
+$newsTextDecoration: none;
+$newsMarginTop: 20px;
+$footerTextPadding: 10px 10px 0px 10px;
+$footerTextWeight: bold;
+
+* {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container-fluid {
+	margin-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.navbar {
+	& {
+		border-radius: 0px;
+		border: none;
+		border-bottom: 1px solid $navBorderColor;
+	}
+
+}
+
+.navbar-default .navbar-nav {
+	li a:hover {
+		color: white;
+	}
+
+	li:hover {
+		background-color: $blue;
+		transition: $transition;
+	}
+
+	li.active {
+		background-color: $blue;
+	}
+
+	.active a,
+	.active a:hover {
+		background-color: $blue;
+		color: white;
+	}
+
+}
+
+.row.banner {
+	margin-top: $newsMarginTop;
+}
+
+.content {
+	& {
+		font-size: $textSize;
+	}
+
+	h1,
+	h2 {
+		color: $blue;
+		font-weight: bold;
+	}
+
+	hr {
+		display: block;
+		height: 1px;
+		border: 0;
+		border-top: 1px solid $blue;
+		padding: 0;
+		margin: 0;
+	}
+
+	p.description {
+		padding-right: $descriptionPadding;
+	}
+
+}
+
+.news {
+	& {
+		cursor: $newsCursor;
+	}
+
+	a {
+		text-decoration: $newsTextDecoration;
+	}
+
+}
+
+.news-1 {
+	& {
+		background: $red;
+		text-align: $newsTextAlight;
+		border: 1px solid $red;
+		margin-top: $newsMarginTop;
+	}
+
+	&:hover {
+		background: darken($red, 10%);
+		transition: $transition;
+	}
+
+	p {
+		padding: $newsTextPadding;
+		color: white;
+		font-weight: $newsFontWeight;
+	}
+
+}
+
+.news-2 {
+	& {
+		background: $blue;
+		text-align: $newsTextAlight;
+		border: 1px solid $blue;
+		margin-top: $newsMarginTop;
+	}
+
+	&:hover {
+		background: darken($blue, 10%);
+		transition: $transition;
+	}
+
+	p {
+		padding: $newsTextPadding;
+		color: white;
+		font-weight: $newsFontWeight;
+	}
+
+}
+
+.news-3 {
+	& {
+		background: $orange;
+		text-align: $newsTextAlight;
+		border: 1px solid $orange;
+		margin-top: $newsMarginTop;
+	}
+
+	&:hover {
+		background: darken($orange, 10%);
+		transition: $transition;
+	}
+
+	p {
+		padding: $newsTextPadding;
+		color: white;
+		font-weight: $newsFontWeight;
+	}
+
+}
+
+.news-4 {
+	& {
+		background: $green;
+		text-align: $newsTextAlight;
+		border: 1px solid $green;
+		margin-top: $newsMarginTop;
+	}
+
+	&:hover {
+		background: darken($green, 10%);
+		transition: $transition;
+	}
+
+	p {
+		padding: $newsTextPadding;
+		color: white;
+		font-weight: $newsFontWeight;
+	}
+
+}
+
+footer {
+	& {
+		background: $grey;
+		color: white;
+	}
+
+	p {
+		padding: $footerTextPadding;
+		font-weight: $footerTextWeight;
+	}
+
+}
